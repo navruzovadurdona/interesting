@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Многоэтажное здание</title>
+  <style>
+    body {
+      background-color: #87ceeb;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      height: 100vh;
+    }
+
+    .building {
+      width: 300px;
+      height: 500px;
+      background-color: #dcdcdc;
+      display: flex;
+      flex-direction: column-reverse;
+      border: 4px solid #333;
+    }
+
+    .floor {
+      flex: 1;
+      border-top: 2px solid #999;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 24px;
+      background-color: #f0f0f0;
+    }
+
+    .window {
+      width: 40px;
+      height: 40px;
+      background-color: #add8e6;
+      border: 2px solid #333;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="building">
+    <div class="floor">5 этаж 🧍 <div class="window"></div><div class="window"></div></div>
+    <div class="floor">4 этаж 🪟<div class="window"></div><div class="window"></div></div>
+    <div class="floor">3 этаж 🧍‍♀️<div class="window"></div><div class="window"></div></div>
+    <div class="floor">2 этаж 🧍<div class="window"></div><div class="window"></div></div>
+    <div class="floor">1 этаж 🧍‍♂️<div class="window"></div><div class="window"></div></div>
+  </div>
+</body>
+</html>
