@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Этажи с окнами и человечками</title>
+  <style>
+    body {
+      background-color: #a0d8ef;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      height: 100vh;
+      font-family: sans-serif;
+    }
+
+    .building {
+      width: 300px;
+      border: 4px solid #444;
+      background-color: #f0f0f0;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .floor {
+      height: 100px;
+      border-top: 2px solid #ccc;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      position: relative;
+    }
+
+    .window {
+      width: 40px;
+      height: 40px;
+      background-color: #bde0fe;
+      border: 2px solid #333;
+      border-radius: 6px;
+    }
+
+    .person {
+      font-size: 32px;
+      position: absolute;
+      left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="building">
+    <div class="floor">
+      <span class="person">🧍</span>
+      <div class="window"></div>
+      <div class="window"></div>
+    </div>
+    <div class="floor">
+      <span class="person">🧍‍♀️</span>
+      <div class="window"></div>
+      <div class="window"></div>
+    </div>
+    <div class="floor">
+      <span class="person">🧍</span>
+      <div class="window"></div>
+      <div class="window"></div>
+    </div>
+    <div class="floor">
+      <span class="person">🧍‍♂️</span>
+      <div class="window"></div>
+      <div class="window"></div>
+    </div>
+    <div class="floor">
+      <span class="person">🧍‍♀️</span>
+      <div class="window"></div>
+      <div class="window"></div>
+    </div>
+  </div>
+</body>
+</html>
